@@ -28,4 +28,12 @@ export class TasksComponent implements OnInit {
     })
   }
 
+  deleteTask(task: Task) {
+    this.taskSvc.deleteTask(task).subscribe(() => {
+      this.tasks = this.tasks.filter(t => t.id !== task.id);
+      // filter() explained:
+      // for each task 't'... return t if t.id is not equal to the task.id ('task' is the one being deleted)
+    })
+  }
+
 }
