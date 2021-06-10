@@ -21,7 +21,7 @@
     {
       "text": "Wake up",
       "day": "May 10th at 6am",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     },
     {
