@@ -17,6 +17,18 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "text": "Wake up",
+      "day": "May 10th at 6am",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Go to the Bank",
+      "day": "May 10th at 12:15pm",
+      "reminder": true,
+      "id": 6
     }
   ]
 }

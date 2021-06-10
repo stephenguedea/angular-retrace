@@ -43,4 +43,10 @@ export class TasksComponent implements OnInit {
     this.taskSvc.updateTask(task).subscribe();
   }
 
+  addTask(task: any) {
+    this.taskSvc.addTask(task).subscribe( data => {
+      this.tasks.push(data);
+    })
+  }
+
 }
