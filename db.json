@@ -10,13 +10,13 @@
       "id": 2,
       "text": "Meeting at School",
       "day": "May 6th at 1:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Wake up",
@@ -25,8 +25,8 @@
       "id": 5
     },
     {
-      "text": "Go to the Bank",
-      "day": "May 10th at 12:15pm",
+      "text": "Sleep",
+      "day": "June 10th at 11:00pm",
       "reminder": true,
       "id": 6
     }
